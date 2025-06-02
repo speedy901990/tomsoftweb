@@ -1,0 +1,21 @@
+# Enable POST requests
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} POST
+    RewriteRule ^ - [L]
+</IfModule>
+
+# Allow POST method
+<LimitExcept GET POST>
+    Order deny,allow
+    Deny from all
+</LimitExcept>
+
+# Set proper permissions
+<Files "forms/contact.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Enable PHP processing
+AddType application/x-httpd-php .php 

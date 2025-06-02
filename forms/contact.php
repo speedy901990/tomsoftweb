@@ -6,36 +6,70 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'mychaty@gmail.com';
+  // Enable error reporting for debugging
+  error_reporting(E_ALL);
+  ini_set('display_errors', 1);
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+  // Check if it's a POST request
+  if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('HTTP/1.1 405 Method Not Allowed');
+    exit('Method not allowed');
   }
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+  // Get form data
+  $name = $_POST['name'] ?? '';
+  $email = $_POST['email'] ?? '';
+  $subject = $_POST['subject'] ?? '';
+  $message = $_POST['message'] ?? '';
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  
-  /*$contact->smtp = array(
-    'host' => 'smtp.gmail.com',
-    'username' => 'login',
-    'password' => 'pass',
-    'port' => '587'
-  );*/
-  
+  // Validate input
+  if (empty($name) || empty($email) || empty($subject) || empty($message)) {
+    header('HTTP/1.1 400 Bad Request');
+    exit('All fields are required');
+  }
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+  try {
+    // Include PHPMailer
+    require __DIR__ . '/../vendor/autoload.php';
 
-  echo $contact->send();
+    // Create a new PHPMailer instance
+    $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+
+    // Server settings
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'EMAIL';
+    $mail->Password = 'PASSWORD';
+    $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port = 587;
+
+    // Recipients
+    $mail->setFrom($email, $name);
+    $mail->addAddress('mychaty@gmail.com');
+    $mail->addReplyTo($email, $name);
+
+    // Content
+    $mail->isHTML(true);
+    $mail->Subject = $subject;
+    $mail->Body = "
+      <html>
+      <body>
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> $name</p>
+        <p><strong>Email:</strong> $email</p>
+        <p><strong>Subject:</strong> $subject</p>
+        <p><strong>Message:</strong><br>$message</p>
+      </body>
+      </html>
+    ";
+
+    // Send email
+    $mail->send();
+    echo 'OK';
+  } catch (Exception $e) {
+    error_log("Mail Error: " . $e->getMessage());
+    header('HTTP/1.1 500 Internal Server Error');
+    echo 'Failed to send email: ' . $e->getMessage();
+  }
 ?>
