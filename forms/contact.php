@@ -35,12 +35,22 @@
     // Create a new PHPMailer instance
     $mail = new PHPMailer\PHPMailer\PHPMailer(true);
 
+    // Read credentials from file
+    $lines = file("credentials.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    if (count($lines) == 2) {
+        $username = $lines[0];
+        $password = $lines[1];
+    } else {
+        $username = 'notSet';
+        $password = 'notSet';
+    }
+
     // Server settings
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'EMAIL';
-    $mail->Password = 'PASSWORD';
+    $mail->Username = $username;
+    $mail->Password = $password;
     $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
