@@ -303,9 +303,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-photo filter-video">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/coffeemypassion-miniature.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/coffee-my-passion/coffeemypassion-miniature.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/coffeemypassion-miniature.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Coffee My Passion"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/coffee-my-passion/coffeemypassion-miniature.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Coffee My Passion"><i class="bx bx-plus"></i></a>
                 <a href="portfolio/coffeemypassion.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>

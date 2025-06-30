@@ -93,16 +93,16 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/coffee-main.jpg" alt="Coffee My Passion - Main Page" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-main.jpg" alt="Coffee My Passion - Main Page" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/coffee-brewing.jpg" alt="Coffee Brewing Guide" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-brewing.jpg" alt="Coffee Brewing Guide" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/coffee-equipment.jpg" alt="Coffee Equipment Reviews" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-equipment.jpg" alt="Coffee Equipment Reviews" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/coffee-mobile.jpg" alt="Mobile Responsive Design" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-mobile.jpg" alt="Mobile Responsive Design" class="img-fluid rounded shadow">
                 </div>
               </div>
               <div class="swiper-pagination"></div>
@@ -117,8 +117,8 @@
                 <li><strong>Technologies</strong>: HTML, CSS, JavaScript</li>
                 <li><strong>Project Date</strong>: 2023 - Present</li>
                 <li><strong>Live Site</strong>: <a href="http://coffeemypassion.com" target="_blank" class="text-primary">coffeemypassion.com</a></li>
-                <li><strong>YouTube Channel</strong>: <a href="https://www.youtube.com/channel/UCHES_sexyRVhN4udBvIuilg" target="_blank" class="text-danger"><i class="bi bi-youtube me-1"></i>Coffee Videos</a></li>
-                <li><strong>Instagram</strong>: <a href="https://www.instagram.com/_tomasznowak_/" target="_blank" class="text-warning"><i class="bi bi-instagram me-1"></i>Coffee Photography</a></li>
+                <li><strong>YouTube Channel</strong>: <a href="https://www.youtube.com/@coffeemypassion" target="_blank" class="text-danger"><i class="bi bi-youtube me-1"></i>Coffee Videos</a></li>
+                <li><strong>Instagram</strong>: <a href="https://www.instagram.com/__coffeemypassion__/" target="_blank" class="text-warning"><i class="bi bi-instagram me-1"></i>Coffee Photography</a></li>
                 <li><strong>Status</strong>: <span class="badge bg-success">Live</span></li>
               </ul>
             </div>
@@ -221,7 +221,7 @@
                   </div>
                   <div class="col-lg-4">
                     <div class="text-center">
-                      <a href="https://www.youtube.com/channel/UCHES_sexyRVhN4udBvIuilg" target="_blank" class="btn btn-danger btn-lg mb-3">
+                      <a href="https://www.youtube.com/@coffeemypassion" target="_blank" class="btn btn-danger btn-lg mb-3">
                         <i class="bi bi-youtube me-2"></i>Visit YouTube Channel
                       </a>
                       <p class="text-muted small">Subscribe for coffee brewing tutorials and reviews</p>
@@ -267,7 +267,7 @@
                   </div>
                   <div class="col-lg-4">
                     <div class="text-center">
-                      <a href="https://www.instagram.com/_tomasznowak_/" target="_blank" class="btn btn-warning btn-lg mb-3">
+                      <a href="https://www.instagram.com/__coffeemypassion__/" target="_blank" class="btn btn-warning btn-lg mb-3">
                         <i class="bi bi-instagram me-2"></i>Follow on Instagram
                       </a>
                       <p class="text-muted small">Discover stunning coffee photography and culture</p>
@@ -286,7 +286,7 @@
             <div class="row g-4">
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/coffee-gallery-1.jpg" class="card-img-top" alt="Homepage Design">
+                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-main.jpg" class="card-img-top" alt="Homepage Design">
                   <div class="card-body">
                     <h5 class="card-title">Homepage Design</h5>
                     <p class="card-text text-muted">Clean and welcoming homepage showcasing the latest coffee content.</p>
@@ -295,7 +295,7 @@
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/coffee-gallery-2.jpg" class="card-img-top" alt="Brewing Guides">
+                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-brewing-guides.jpg" class="card-img-top" alt="Brewing Guides">
                   <div class="card-body">
                     <h5 class="card-title">Brewing Guides</h5>
                     <p class="card-text text-muted">Step-by-step guides for various coffee brewing methods.</p>
@@ -304,7 +304,7 @@
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/coffee-gallery-3.jpg" class="card-img-top" alt="Mobile Experience">
+                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-mobile-experience.jpg" class="card-img-top" alt="Mobile Experience">
                   <div class="card-body">
                     <h5 class="card-title">Mobile Experience</h5>
                     <p class="card-text text-muted">Fully responsive design that works perfectly on all devices.</p>
