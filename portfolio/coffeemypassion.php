@@ -27,13 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.10.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-
   <style>
     .section-header {
       font-size: 2rem;
@@ -115,7 +108,7 @@
               <ul>
                 <li><strong>Category</strong>: Personal Blog & Website</li>
                 <li><strong>Technologies</strong>: HTML, CSS, JavaScript</li>
-                <li><strong>Project Date</strong>: 2023 - Present</li>
+                <li><strong>Project Date</strong>: 2020 - Present</li>
                 <li><strong>Live Site</strong>: <a href="http://coffeemypassion.com" target="_blank" class="text-primary">coffeemypassion.com</a></li>
                 <li><strong>YouTube Channel</strong>: <a href="https://www.youtube.com/@coffeemypassion" target="_blank" class="text-danger"><i class="bi bi-youtube me-1"></i>Coffee Videos</a></li>
                 <li><strong>Instagram</strong>: <a href="https://www.instagram.com/__coffeemypassion__/" target="_blank" class="text-warning"><i class="bi bi-instagram me-1"></i>Coffee Photography</a></li>
