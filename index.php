@@ -253,10 +253,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-apps">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/lazy-score/lazyscore-miniature.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lazy Score"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/lazy-score/lazyscore-miniature.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lazy Score"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/lazyscore.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
