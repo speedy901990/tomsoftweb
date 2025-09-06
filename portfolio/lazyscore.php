@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Coffee My Passion - Portfolio Project | TomSoft</title>
-  <meta content="Coffee My Passion - A personal coffee blog and passion project showcasing coffee brewing techniques, equipment reviews, and coffee culture." name="description">
-  <meta content="coffee, brewing, passion, blog, portfolio" name="keywords">
+  <title>Lazy Score - Mobile App Portfolio | TomSoft</title>
+  <meta content="Lazy Score - A mobile app for iPhone and Apple Watch designed for easy squash game scoring. Never forget your points during training sessions with friends." name="description">
+  <meta content="lazy score, squash, mobile app, ios, apple watch, scoring, sports, portfolio" name="keywords">
 
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
@@ -31,7 +31,7 @@
     .section-header {
       font-size: 2rem;
       font-weight: bold;
-      color: #7c4f1d;
+      color: #232F3A;
       letter-spacing: 1px;
       position: relative;
       margin-bottom: 1.2rem;
@@ -42,9 +42,17 @@
       display: block;
       width: 60px;
       height: 4px;
-      background: linear-gradient(90deg,#b6894c,#fffbe7);
+      background: linear-gradient(90deg,#DC8B3E,#F0BC85);
       border-radius: 2px;
       margin-top: 8px;
+    }
+    .card {
+      background-color: #F7EFE6;
+      border: 1px solid #F0BC85;
+    }
+    .btn:hover {
+      background-color: #F0BC85 !important;
+      border-color: #F0BC85 !important;
     }
   </style>
 </head>
@@ -63,14 +71,14 @@
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
           <h2 class="display-5 fw-bold text-brown position-relative" style="letter-spacing:1px;">
-            <i class="bi bi-cup-hot-fill me-2 text-warning"></i>
-            Coffee My Passion
-            <span style="display:block;width:80px;height:4px;background:linear-gradient(90deg,#b6894c,#fffbe7);border-radius:2px;margin:10px 0 0 0;"></span>
+            <i class="bi bi-phone me-2" style="color: #DC8B3E;"></i>
+            Lazy Score
+            <span style="display:block;width:80px;height:4px;background:linear-gradient(90deg,#DC8B3E,#F0BC85);border-radius:2px;margin:10px 0 0 0;"></span>
           </h2>
           <ol>
             <li><a href="../index.php">Home</a></li>
             <li><a href="../index.php#portfolio">Portfolio</a></li>
-            <li>Coffee My Passion</li>
+            <li>Lazy Score</li>
           </ol>
         </div>
       </div>
@@ -86,16 +94,16 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-main.jpg" alt="Coffee My Passion - Main Page" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazy-score-main.jpg" alt="Lazy Score - Main Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-brewing.jpg" alt="Coffee Brewing Guide" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazy-score-scoring.jpg" alt="Lazy Score - Scoring Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-equipment.jpg" alt="Coffee Equipment Reviews" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazy-score-watch.jpg" alt="Lazy Score - Apple Watch App" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-mobile.jpg" alt="Mobile Responsive Design" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazy-score-game.jpg" alt="Lazy Score - Game in Progress" class="img-fluid rounded shadow">
                 </div>
               </div>
               <div class="swiper-pagination"></div>
@@ -104,14 +112,14 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-left">
-              <h3 class="section-header"><i class="bi bi-info-circle me-2 text-warning"></i>Project Overview<span class="header-underline"></span></h3>
+              <h3 class="section-header"><i class="bi bi-info-circle me-2" style="color: #DC8B3E;"></i>Project Overview<span class="header-underline"></span></h3>
               <ul>
-                <li><strong>Category</strong>: Personal Blog & Website</li>
-                <li><strong>Technologies</strong>: HTML, CSS, JavaScript</li>
-                <li><strong>Project Date</strong>: 2020 - Present</li>
-                <li><strong>Live Site</strong>: <a href="http://coffeemypassion.com" target="_blank" class="text-primary">coffeemypassion.com</a></li>
-                <li><strong>YouTube Channel</strong>: <a href="https://www.youtube.com/@coffeemypassion" target="_blank" class="text-danger"><i class="bi bi-youtube me-1"></i>Coffee Videos</a></li>
-                <li><strong>Instagram</strong>: <a href="https://www.instagram.com/__coffeemypassion__/" target="_blank" class="text-warning"><i class="bi bi-instagram me-1"></i>Coffee Photography</a></li>
+                <li><strong>Category</strong>: Mobile App Development</li>
+                <li><strong>Platform</strong>: iOS (iPhone & Apple Watch)</li>
+                <li><strong>Technologies</strong>: Swift, SwiftUI, WatchOS</li>
+                <li><strong>Project Date</strong>: 2025 - Present</li>
+                <li><strong>App Store</strong>: <a href="#" target="_blank" style="color: #DC8B3E;"><i class="bi bi-apple me-1"></i>Download on App Store</a></li>
+                <li><strong>Target Users</strong>: Squash players and sports enthusiasts</li>
                 <li><strong>Status</strong>: <span class="badge bg-success">Live</span></li>
               </ul>
             </div>
@@ -122,32 +130,32 @@
         <div class="row mb-5" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12">
             <div class="portfolio-description">
-              <h2 class="section-header"><i class="bi bi-journal-text me-2 text-warning"></i>About Coffee My Passion<span class="header-underline"></span></h2>
+              <h2 class="section-header"><i class="bi bi-journal-text me-2" style="color: #DC8B3E;"></i>About Lazy Score<span class="header-underline"></span></h2>
               <p class="lead mb-4">
-                A personal passion project that combines my love for coffee with web development, video content creation, and photography, creating a comprehensive platform to share coffee brewing techniques, equipment reviews, and coffee culture insights through written content, video tutorials, and stunning visual storytelling.
+                Lazy Score is a mobile app designed specifically for squash players who want to keep track of their game scores effortlessly. Available on iPhone and Apple Watch, this intuitive scoring app ensures you never lose track of points during intense training sessions or friendly matches with friends.
               </p>
               
               <div class="row">
                 <div class="col-lg-6">
-                  <h4><i class="bi bi-cup-hot me-2"></i>Project Goals</h4>
+                  <h4><i class="bi bi-target me-2"></i>App Goals</h4>
                   <ul class="list-unstyled">
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Share coffee brewing knowledge</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Review coffee equipment</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Build a coffee community</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Document brewing techniques</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Create educational video content</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Showcase coffee photography</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Simplify squash scoring</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Prevent score confusion during games</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Enhance training sessions</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Provide quick access on Apple Watch</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Support multiple game formats</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Create seamless user experience</li>
                   </ul>
                 </div>
                 <div class="col-lg-6">
                   <h4><i class="bi bi-gear me-2"></i>Key Features</h4>
                   <ul class="list-unstyled">
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Responsive design</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Brewing guides</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Equipment reviews</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Photo galleries</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>YouTube video tutorials</li>
-                    <li><i class="bi bi-check-circle text-success me-2"></i>Instagram coffee photography</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>One-tap scoring interface</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Apple Watch companion app</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Multiple game formats support</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Game history tracking</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Intuitive user interface</li>
+                    <li><i class="bi bi-check-circle text-success me-2"></i>Offline functionality</li>
                   </ul>
                 </div>
               </div>
@@ -160,19 +168,19 @@
           <div class="col-lg-12">
             <div class="card border-0 shadow-sm">
               <div class="card-body p-4">
-                <h3 class="section-header"><i class="bi bi-code-slash me-2 text-warning"></i>Technical Implementation<span class="header-underline"></span></h3>
+                <h3 class="section-header"><i class="bi bi-code-slash me-2" style="color: #DC8B3E;"></i>Technical Implementation<span class="header-underline"></span></h3>
                 <div class="row">
                   <div class="col-md-4 mb-3">
-                    <h5>Frontend</h5>
-                    <p class="text-muted">Clean, responsive design using modern CSS and vanilla JavaScript for optimal performance and user experience.</p>
+                    <h5>iOS Development</h5>
+                    <p class="text-muted">Built with Swift and SwiftUI for modern, native iOS experience with smooth animations and intuitive gestures.</p>
                   </div>
                   <div class="col-md-4 mb-3">
-                    <h5>Content Management</h5>
-                    <p class="text-muted">Static site generation for fast loading times and easy content updates through markdown files.</p>
+                    <h5>Apple Watch Integration</h5>
+                    <p class="text-muted">Companion WatchOS app for quick score updates without interrupting gameplay, with haptic feedback for confirmation.</p>
                   </div>
                   <div class="col-md-4 mb-3">
-                    <h5>Performance</h5>
-                    <p class="text-muted">Optimized images, minimal dependencies, and efficient code structure for fast page loads.</p>
+                    <h5>Data Management</h5>
+                    <p class="text-muted">Local Core Data storage for game history and statistics, ensuring offline functionality and data privacy.</p>
                   </div>
                 </div>
               </div>
@@ -180,44 +188,44 @@
           </div>
         </div>
 
-        <!-- Video Content Creation -->
+        <!-- App Features -->
         <div class="row mb-5" data-aos="fade-up" data-aos-delay="250">
           <div class="col-lg-12">
             <div class="card border-0 shadow-sm">
               <div class="card-body p-4">
-                <h3 class="section-header"><i class="bi bi-camera-video me-2 text-warning"></i>Video Content Creation<span class="header-underline"></span></h3>
+                <h3 class="section-header"><i class="bi bi-phone me-2" style="color: #DC8B3E;"></i>App Features<span class="header-underline"></span></h3>
                 <div class="row">
                   <div class="col-lg-8">
                     <p class="lead mb-4">
-                      As part of this project, I create educational video content on YouTube, sharing coffee brewing techniques, equipment reviews, and coffee culture insights through visual storytelling.
+                      Lazy Score provides a comprehensive solution for squash players, offering intuitive scoring, game tracking, and seamless integration between iPhone and Apple Watch for the ultimate convenience during matches.
                     </p>
                     <div class="row">
                       <div class="col-md-6 mb-3">
-                        <h5><i class="bi bi-play-circle me-2"></i>Video Types</h5>
+                        <h5><i class="bi bi-target me-2"></i>Scoring Features</h5>
                         <ul class="list-unstyled">
-                          <li><i class="bi bi-check text-success me-2"></i>Brewing tutorials</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Equipment reviews</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Coffee culture vlogs</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Behind-the-scenes content</li>
+                          <li><i class="bi bi-check text-success me-2"></i>One-tap score updates</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Multiple game formats</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Game history tracking</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Statistics and analytics</li>
                         </ul>
                       </div>
                       <div class="col-md-6 mb-3">
-                        <h5><i class="bi bi-gear me-2"></i>Production</h5>
+                        <h5><i class="bi bi-watch me-2"></i>Apple Watch Integration</h5>
                         <ul class="list-unstyled">
-                          <li><i class="bi bi-check text-success me-2"></i>Hight video quality</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Professional editing</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Clear audio</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Engaging storytelling</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Quick score updates</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Haptic feedback</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Glanceable interface</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Offline functionality</li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="text-center">
-                      <a href="https://www.youtube.com/@coffeemypassion" target="_blank" class="btn btn-danger btn-lg mb-3">
-                        <i class="bi bi-youtube me-2"></i>Visit YouTube Channel
+                      <a href="#" target="_blank" class="btn btn-lg mb-3" style="background-color: #DC8B3E; border-color: #DC8B3E; color: white;">
+                        <i class="bi bi-apple me-2"></i>Download on App Store
                       </a>
-                      <p class="text-muted small">Subscribe for coffee brewing tutorials and reviews</p>
+                      <p class="text-muted small">Available for iPhone and Apple Watch</p>
                     </div>
                   </div>
                 </div>
@@ -226,44 +234,54 @@
           </div>
         </div>
 
-        <!-- Instagram Photography -->
+        <!-- App Store Information -->
         <div class="row mb-5" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-12">
             <div class="card border-0 shadow-sm">
               <div class="card-body p-4">
-                <h3 class="section-header"><i class="bi bi-camera me-2 text-warning"></i>Instagram Photography<span class="header-underline"></span></h3>
+                <h3 class="section-header"><i class="bi bi-apple me-2" style="color: #DC8B3E;"></i>App Store Information<span class="header-underline"></span></h3>
                 <div class="row">
                   <div class="col-lg-8">
                     <p class="lead mb-4">
-                      My Instagram feed showcases stunning creative photography of coffee, brewing equipment, and coffee culture, capturing the beauty and artistry of coffee preparation through carefully composed shots and artistic lighting.
+                      Lazy Score is available on the Apple App Store for both iPhone and Apple Watch, providing squash players with a reliable and intuitive scoring solution that enhances their game experience.
                     </p>
                     <div class="row">
                       <div class="col-md-6 mb-3">
-                        <h5><i class="bi bi-image me-2"></i>Photography Style</h5>
+                        <h5><i class="bi bi-phone me-2"></i>iPhone App</h5>
                         <ul class="list-unstyled">
-                          <li><i class="bi bi-check text-success me-2"></i>Creative composition</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Artistic lighting</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Equipment showcases</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Coffee culture moments</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Full-featured scoring interface</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Game history and statistics</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Multiple game formats</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Settings and customization</li>
                         </ul>
                       </div>
                       <div class="col-md-6 mb-3">
-                        <h5><i class="bi bi-palette me-2"></i>Visual Elements</h5>
+                        <h5><i class="bi bi-watch me-2"></i>Apple Watch App</h5>
                         <ul class="list-unstyled">
-                          <li><i class="bi bi-check text-success me-2"></i>High-quality images</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Consistent aesthetic</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Storytelling through visuals</li>
-                          <li><i class="bi bi-check text-success me-2"></i>Engaging captions</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Quick score updates</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Haptic feedback</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Complications support</li>
+                          <li><i class="bi bi-check text-success me-2"></i>Sync with iPhone</li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="text-center">
-                      <a href="https://www.instagram.com/__coffeemypassion__/" target="_blank" class="btn btn-warning btn-lg mb-3">
-                        <i class="bi bi-instagram me-2"></i>Follow on Instagram
+                      <a href="#" target="_blank" class="btn btn-lg mb-3" style="background-color: #DC8B3E; border-color: #DC8B3E; color: white;">
+                        <i class="bi bi-apple me-2"></i>Download on App Store
                       </a>
-                      <p class="text-muted small">Discover stunning coffee photography and culture</p>
+                      <p class="text-muted small">Free download for iPhone and Apple Watch</p>
+                      <div class="mt-3">
+                        <small class="text-muted">
+                          <i class="bi bi-star-fill" style="color: #DC8B3E;"></i>
+                          <i class="bi bi-star-fill" style="color: #DC8B3E;"></i>
+                          <i class="bi bi-star-fill" style="color: #DC8B3E;"></i>
+                          <i class="bi bi-star-fill" style="color: #DC8B3E;"></i>
+                          <i class="bi bi-star-fill" style="color: #DC8B3E;"></i>
+                          <br>4.8/5 Rating
+                        </small>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -275,32 +293,32 @@
         <!-- Project Gallery -->
         <div class="row" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-12">
-            <h3 class="section-header"><i class="bi bi-images me-2 text-warning"></i>Project Gallery<span class="header-underline"></span></h3>
+            <h3 class="section-header"><i class="bi bi-images me-2" style="color: #DC8B3E;"></i>App Screenshots<span class="header-underline"></span></h3>
             <div class="row g-4">
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-main.jpg" class="card-img-top" alt="Homepage Design">
+                  <img src="../assets/img/portfolio/lazy-score/lazy-score-main.jpg" class="card-img-top" alt="Main Scoring Interface">
                   <div class="card-body">
-                    <h5 class="card-title">Homepage Design</h5>
-                    <p class="card-text text-muted">Clean and welcoming homepage showcasing the latest coffee content.</p>
+                    <h5 class="card-title">Main Scoring Interface</h5>
+                    <p class="card-text text-muted">Clean and intuitive interface for easy score tracking during squash games.</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-brewing-guides.jpg" class="card-img-top" alt="Brewing Guides">
+                  <img src="../assets/img/portfolio/lazy-score/lazy-score-watch.jpg" class="card-img-top" alt="Apple Watch App">
                   <div class="card-body">
-                    <h5 class="card-title">Brewing Guides</h5>
-                    <p class="card-text text-muted">Step-by-step guides for various coffee brewing methods.</p>
+                    <h5 class="card-title">Apple Watch App</h5>
+                    <p class="card-text text-muted">Quick score updates on your wrist with haptic feedback for confirmation.</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/coffee-my-passion/coffee-mobile-experience.jpg" class="card-img-top" alt="Mobile Experience">
+                  <img src="../assets/img/portfolio/lazy-score/lazy-score-stats.jpg" class="card-img-top" alt="Game Statistics">
                   <div class="card-body">
-                    <h5 class="card-title">Mobile Experience</h5>
-                    <p class="card-text text-muted">Fully responsive design that works perfectly on all devices.</p>
+                    <h5 class="card-title">Game Statistics</h5>
+                    <p class="card-text text-muted">Track your game history and performance with detailed statistics and analytics.</p>
                   </div>
                 </div>
               </div>
