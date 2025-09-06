@@ -120,7 +120,7 @@
                 <li><strong>Project Date</strong>: 2025 - Present</li>
                 <li><strong>App Store</strong>: <a href="#" target="_blank" style="color: #DC8B3E;"><i class="bi bi-apple me-1"></i>Download on App Store</a></li>
                 <li><strong>Target Users</strong>: Squash players and sports enthusiasts</li>
-                <li><strong>Status</strong>: <span class="badge bg-success">Live</span></li>
+                <li><strong>Status</strong>: <span class="badge style="background-color: #DC8B3E; color: white;"">Live</span></li>
               </ul>
             </div>
           </div>
