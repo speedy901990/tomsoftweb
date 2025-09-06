@@ -243,10 +243,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-photo filter-video">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cars-with-tom/carswithtom-miniature.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cars-with-tomasz/carswithtomasz-miniature.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/cars-with-tom/carswithtom-miniature.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cars with Tom"><i class="bx bx-plus"></i></a>
-                <a href="portfolio/carswithtom.php" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/cars-with-tom/carswithtomasz-miniature.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cars with Tom"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/carswithtomasz.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>

@@ -13,8 +13,5 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy project files
-COPY . /var/www/html
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
-# Expose port
-EXPOSE 80

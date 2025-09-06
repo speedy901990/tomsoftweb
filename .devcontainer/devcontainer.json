@@ -1,18 +1,20 @@
 {
   "name": "Bootstrap Dev Container",
   "dockerFile": "Dockerfile",
-  "context": "..",
-  "appPort": [80],
-  "forwardPorts": [80],
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "appPort": 80,
+  "forwardPorts": 80,
+  "workspaceMount": "source=${localWorkspaceFolder},target=/var/www/html,type=bind",
   "workspaceFolder": "/var/www/html",
+  "postStartCommand": "apache2ctl start",
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-azuretools.vscode-docker",
         "felixfbecker.php-debug",
         "esbenp.prettier-vscode"
-      ]
+      ],
+      "settings": {
+          "php.validate.executablePath": "/usr/local/bin/php"
+      }
     }
   }
 }
