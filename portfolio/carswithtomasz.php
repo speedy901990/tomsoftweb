@@ -133,7 +133,7 @@
                 <li><strong>Category</strong>: Automotive Photo & Video</li>
                 <li><strong>Technologies</strong>: Photography, Videography, Editing</li>
                 <li><strong>Project Date</strong>: 2021 - Present</li>
-                <li><strong>Instagram</strong>: <a href="https://www.instagram.com/cars.with.tomasz/" target="_blank" class="text-info"><i class="bi bi-instagram me-1"></i>cars.with.tomasz</a></li>
+                <li><strong>Instagram</strong>: <a href="https://www.instagram.com/cars.with.tomasz" target="_blank" class="text-info"><i class="bi bi-instagram me-1"></i>cars.with.tomasz</a></li>
                 <li><strong>YouTube</strong>: <a href="https://www.youtube.com/@cars.with.tomasz" target="_blank" class="text-danger"><i class="bi bi-youtube me-1"></i>cars.with.tomasz</a></li>
                 <li><strong>TikTok</strong>: <a href="https://www.tiktok.com/@cars.with.tomasz" target="_blank" class="text-light"><i class="bi bi-tiktok me-1"></i>@cars.with.tomasz</a></li>
                 <li><strong>Status</strong>: <span class="badge bg-blue">Active</span></li>
@@ -238,7 +238,7 @@
                       <a href="https://www.youtube.com/@carswithtomasz" target="_blank" class="btn btn-danger btn-lg mb-3">
                         <i class="bi bi-youtube me-2"></i>Visit YouTube
                       </a>
-                      <a href="https://www.tiktok.com/@cars.with.tom" target="_blank" class="btn btn-tiktok btn-lg mb-3 ms-2">
+                      <a href="https://www.tiktok.com/@cars.with.tomasz" target="_blank" class="btn btn-tiktok btn-lg mb-3 ms-2">
                         <i class="bi bi-tiktok me-2"></i>Visit TikTok
                       </a>
                       <p class="text-muted small">Subscribe and follow for car POVs, edits, and reviews</p>
