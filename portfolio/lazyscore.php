@@ -104,16 +104,22 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazy-score-main.jpg" alt="Lazy Score - Main Interface" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-main.jpg" alt="Lazy Score - Main Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazy-score-scoring.jpg" alt="Lazy Score - Scoring Interface" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-main.jpg" alt="Lazy Score - Watch Main Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazy-score-watch.jpg" alt="Lazy Score - Apple Watch App" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-scoring.jpg" alt="Lazy Score - iOS Scoring Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazy-score-game.jpg" alt="Lazy Score - Game in Progress" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-scoring.jpg" alt="Lazy Score - Watch Scoring Interface" class="img-fluid rounded shadow">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-settings.jpg" alt="Lazy Score - iOS Settings" class="img-fluid rounded shadow">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-settings.jpg" alt="Lazy Score - Watch Settings" class="img-fluid rounded shadow">
                 </div>
               </div>
               <div class="swiper-pagination"></div>
@@ -307,16 +313,16 @@
             <div class="row g-4">
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/lazy-score/lazy-score-main.jpg" class="card-img-top" alt="Main Scoring Interface">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-main.jpg" class="card-img-top" alt="iOS Main Interface">
                   <div class="card-body">
-                    <h5 class="card-title">Main Scoring Interface</h5>
+                    <h5 class="card-title">iOS Main Interface</h5>
                     <p class="card-text text-muted">Clean and intuitive interface for easy score tracking during squash games.</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/lazy-score/lazy-score-watch.jpg" class="card-img-top" alt="Apple Watch App">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-main.jpg" class="card-img-top" alt="Apple Watch App">
                   <div class="card-body">
                     <h5 class="card-title">Apple Watch App</h5>
                     <p class="card-text text-muted">Quick score updates on your wrist with haptic feedback for confirmation.</p>
@@ -325,10 +331,10 @@
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/lazy-score/lazy-score-stats.jpg" class="card-img-top" alt="Game Statistics">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-settings.jpg" class="card-img-top" alt="iOS Settings">
                   <div class="card-body">
-                    <h5 class="card-title">Game Statistics</h5>
-                    <p class="card-text text-muted">Track your game history and performance with detailed statistics and analytics.</p>
+                    <h5 class="card-title">iOS Settings</h5>
+                    <p class="card-text text-muted">Customize your scoring experience with various game formats and preferences.</p>
                   </div>
                 </div>
               </div>
