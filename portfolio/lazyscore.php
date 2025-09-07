@@ -62,6 +62,23 @@
     .portfolio-details {
       padding: 60px 0;
     }
+    .portfolio-details-slider .swiper-slide img {
+      max-width: 100%;
+      max-height: 400px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+    }
+    .portfolio-details-slider {
+      max-height: 450px;
+    }
+    .portfolio-details-slider .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   </style>
 </head>
 
@@ -104,22 +121,22 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-main.jpg" alt="Lazy Score - Main Interface" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-main.png" alt="Lazy Score - Main Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-main.jpg" alt="Lazy Score - Watch Main Interface" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-main.png" alt="Lazy Score - Watch Main Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-scoring.jpg" alt="Lazy Score - iOS Scoring Interface" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-scoring.png" alt="Lazy Score - iOS Scoring Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-scoring.jpg" alt="Lazy Score - Watch Scoring Interface" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-scoring.png" alt="Lazy Score - Watch Scoring Interface" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-settings.jpg" alt="Lazy Score - iOS Settings" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-settings.png" alt="Lazy Score - iOS Settings" class="img-fluid rounded shadow">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-settings.jpg" alt="Lazy Score - Watch Settings" class="img-fluid rounded shadow">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-settings.png" alt="Lazy Score - Watch Settings" class="img-fluid rounded shadow">
                 </div>
               </div>
               <div class="swiper-pagination"></div>
@@ -313,7 +330,7 @@
             <div class="row g-4">
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-main.jpg" class="card-img-top" alt="iOS Main Interface">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-main.png" class="card-img-top" alt="iOS Main Interface">
                   <div class="card-body">
                     <h5 class="card-title">iOS Main Interface</h5>
                     <p class="card-text text-muted">Clean and intuitive interface for easy score tracking during squash games.</p>
@@ -322,7 +339,7 @@
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-main.jpg" class="card-img-top" alt="Apple Watch App">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-scoring.png" class="card-img-top" alt="Apple Watch App">
                   <div class="card-body">
                     <h5 class="card-title">Apple Watch App</h5>
                     <p class="card-text text-muted">Quick score updates on your wrist with haptic feedback for confirmation.</p>
@@ -331,7 +348,7 @@
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="card border-0 shadow-sm h-100">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-settings.jpg" class="card-img-top" alt="iOS Settings">
+                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-settings.png" class="card-img-top" alt="iOS Settings">
                   <div class="card-body">
                     <h5 class="card-title">iOS Settings</h5>
                     <p class="card-text text-muted">Customize your scoring experience with various game formats and preferences.</p>
