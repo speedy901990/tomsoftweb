@@ -54,6 +54,14 @@
       background-color: #F0BC85 !important;
       border-color: #F0BC85 !important;
     }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .portfolio-details {
+      padding: 60px 0;
+    }
   </style>
 </head>
 
@@ -87,9 +95,11 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
 
         <!-- Project Overview -->
-        <div class="row mb-5" data-aos="fade-up">
+        <div class="row mb-5 px-3" data-aos="fade-up">
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
@@ -127,7 +137,7 @@
         </div>
 
         <!-- Project Description -->
-        <div class="row mb-5" data-aos="fade-up" data-aos-delay="100">
+        <div class="row mb-5 px-3" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12">
             <div class="portfolio-description">
               <h2 class="section-header"><i class="bi bi-journal-text me-2" style="color: #DC8B3E;"></i>About Lazy Score<span class="header-underline"></span></h2>
@@ -164,7 +174,7 @@
         </div>
 
         <!-- Technical Details -->
-        <div class="row mb-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="row mb-5 px-3" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-12">
             <div class="card border-0 shadow-sm">
               <div class="card-body p-4">
@@ -189,7 +199,7 @@
         </div>
 
         <!-- App Features -->
-        <div class="row mb-5" data-aos="fade-up" data-aos-delay="250">
+        <div class="row mb-5 px-3" data-aos="fade-up" data-aos-delay="250">
           <div class="col-lg-12">
             <div class="card border-0 shadow-sm">
               <div class="card-body p-4">
@@ -235,7 +245,7 @@
         </div>
 
         <!-- App Store Information -->
-        <div class="row mb-5" data-aos="fade-up" data-aos-delay="300">
+        <div class="row mb-5 px-3" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-12">
             <div class="card border-0 shadow-sm">
               <div class="card-body p-4">
@@ -291,7 +301,7 @@
         </div>
 
         <!-- Project Gallery -->
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
+        <div class="row px-3" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-12">
             <h3 class="section-header"><i class="bi bi-images me-2" style="color: #DC8B3E;"></i>App Screenshots<span class="header-underline"></span></h3>
             <div class="row g-4">
@@ -326,6 +336,8 @@
           </div>
         </div>
 
+          </div>
+        </div>
       </div>
     </section><!-- End Portfolio Details Section -->
 
