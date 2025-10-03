@@ -136,7 +136,7 @@
                 <li><strong>Instagram</strong>: <a href="https://www.instagram.com/cars.with.tomasz" target="_blank" class="text-info"><i class="bi bi-instagram me-1"></i>cars.with.tomasz</a></li>
                 <li><strong>YouTube</strong>: <a href="https://www.youtube.com/@cars.with.tomasz" target="_blank" class="text-danger"><i class="bi bi-youtube me-1"></i>cars.with.tomasz</a></li>
                 <li><strong>TikTok</strong>: <a href="https://www.tiktok.com/@cars.with.tomasz" target="_blank" class="text-light"><i class="bi bi-tiktok me-1"></i>@cars.with.tomasz</a></li>
-                <li><strong>Status</strong>: <span class="badge bg-blue">Active</span></li>
+                <li><strong>Status</strong>: <span class="badge bg-success">Live</span></li>
               </ul>
             </div>
           </div>

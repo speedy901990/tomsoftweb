@@ -235,7 +235,6 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/coffee-my-passion/coffeemypassion-miniature.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/coffee-my-passion/coffeemypassion-miniature.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Coffee My Passion"><i class="bx bx-plus"></i></a>
                 <a href="portfolio/coffeemypassion.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -245,7 +244,6 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/cars-with-tomasz/carswithtomasz-miniature.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/cars-with-tom/carswithtomasz-miniature.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cars with Tom"><i class="bx bx-plus"></i></a>
                 <a href="portfolio/carswithtomasz.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -255,7 +253,6 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/lazy-score/lazyscore-miniature.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/lazy-score/lazyscore-miniature.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lazy Score"><i class="bx bx-plus"></i></a>
                 <a href="portfolio/lazyscore.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>

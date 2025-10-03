@@ -151,9 +151,9 @@
                 <li><strong>Platform</strong>: iOS (iPhone & Apple Watch)</li>
                 <li><strong>Technologies</strong>: Swift, SwiftUI, WatchOS</li>
                 <li><strong>Project Date</strong>: 2025 - Present</li>
-                <li><strong>App Store</strong>: <a href="#" target="_blank" style="color: #DC8B3E;"><i class="bi bi-apple me-1"></i>Download on App Store</a></li>
+                <li><strong>App Store</strong>: <a href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank" style="color: #DC8B3E;"><i class="bi bi-apple me-1"></i>Download on App Store</a></li>
                 <li><strong>Target Users</strong>: Squash players and sports enthusiasts</li>
-                <li><strong>Status</strong>: <span class="badge style="background-color: #DC8B3E; color: white;"">Live</span></li>
+                <li><strong>Status</strong>: <span class="badge bg-success">Live</span></li>
               </ul>
             </div>
           </div>
@@ -255,7 +255,7 @@
                   </div>
                   <div class="col-lg-4">
                     <div class="text-center">
-                      <a href="#" target="_blank" class="btn btn-lg mb-3" style="background-color: #DC8B3E; border-color: #DC8B3E; color: white;">
+                      <a href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank" class="btn btn-lg mb-3" style="background-color: #DC8B3E; border-color: #DC8B3E; color: white;">
                         <i class="bi bi-apple me-2"></i>Download on App Store
                       </a>
                       <p class="text-muted small">Available for iPhone and Apple Watch</p>
@@ -301,7 +301,7 @@
                   </div>
                   <div class="col-lg-4">
                     <div class="text-center">
-                      <a href="#" target="_blank" class="btn btn-lg mb-3" style="background-color: #DC8B3E; border-color: #DC8B3E; color: white;">
+                      <a href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank" class="btn btn-lg mb-3" style="background-color: #DC8B3E; border-color: #DC8B3E; color: white;">
                         <i class="bi bi-apple me-2"></i>Download on App Store
                       </a>
                       <p class="text-muted small">Free download for iPhone and Apple Watch</p>
@@ -312,7 +312,7 @@
                           <i class="bi bi-star-fill" style="color: #DC8B3E;"></i>
                           <i class="bi bi-star-fill" style="color: #DC8B3E;"></i>
                           <i class="bi bi-star-fill" style="color: #DC8B3E;"></i>
-                          <br>4.8/5 Rating
+                          <br>5/5 Rating
                         </small>
                       </div>
                     </div>
