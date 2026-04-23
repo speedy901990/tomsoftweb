@@ -272,6 +272,20 @@
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-apps">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/color-trends/colortrends-icon.jpg" class="img-fluid" alt="Color Trends">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="portfolio-category">App &middot; iOS &middot; Android</span>
+                  <h4 class="portfolio-title">Color Trends</h4>
+                  <p class="portfolio-desc">Cross-platform palette generator for iOS &amp; Android. Curated 2025–2026 trends, random generation, and image extraction. Built with Flutter.</p>
+                  <a href="portfolio/colortrends.php" class="portfolio-btn">View Project <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
