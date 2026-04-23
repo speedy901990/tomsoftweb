@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Lazy Score - Portfolio | TomSoft</title>
-  <meta content="Lazy Score — an iPhone and Apple Watch app for effortless squash game scoring, built with Swift and SwiftUI." name="description">
-  <meta content="lazy score, squash, ios app, apple watch, swift, swiftui, app store, portfolio" name="keywords">
+  <title>Color Trends - Portfolio | TomSoft</title>
+  <meta content="Color Trends — a cross-platform iOS and Android palette generator app built with Flutter. Curated trend palettes, random generation, and image extraction." name="description">
+  <meta content="color trends, palette generator, flutter, ios, android, color palette, design tools, portfolio" name="keywords">
 
   <link href="../assets/img/favicon.png" rel="icon">
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -26,9 +26,9 @@
 
   <style>
     :root {
-      --p-accent: #4A90D9;
-      --p-accent-light: #daeeff;
-      --p-accent-muted: #f0f8ff;
+      --p-accent:       #D97B5A;
+      --p-accent-light: #f5e5dc;
+      --p-accent-muted: #faf2ee;
     }
   </style>
 </head>
@@ -50,7 +50,7 @@
         <ol class="pd-breadcrumb-trail">
           <li><a href="../index.php">Home</a></li>
           <li><a href="../index.php#portfolio">Portfolio</a></li>
-          <li>Lazy Score</li>
+          <li>Color Trends</li>
         </ol>
       </div>
     </div>
@@ -59,8 +59,8 @@
     <div class="pd-project-title">
       <div class="container">
         <h1>
-          <i class="bi bi-phone pd-title-icon"></i>
-          Lazy Score
+          <i class="bi bi-palette pd-title-icon"></i>
+          Color Trends
         </h1>
         <div class="pd-title-bar"></div>
       </div>
@@ -75,16 +75,16 @@
             <div class="pd-slider pd-slider--screenshots portfolio-details-slider swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-main.png" alt="Lazy Score — iOS main screen">
+                  <img src="../assets/img/portfolio/color-trends/colortrends-screen-trends.png" alt="Color Trends — Trends tab with named palettes">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-main.png" alt="Lazy Score — Apple Watch main screen">
+                  <img src="../assets/img/portfolio/color-trends/colortrends-screen-random.png" alt="Color Trends — Random palette generation">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-scoring.png" alt="Lazy Score — iOS scoring interface">
+                  <img src="../assets/img/portfolio/color-trends/colortrends-screen-fullscreen.png" alt="Color Trends — Fullscreen palette view">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-scoring.png" alt="Lazy Score — Watch scoring interface">
+                  <img src="../assets/img/portfolio/color-trends/colortrends-screen-picker.png" alt="Color Trends — Extract palette from image">
                 </div>
               </div>
               <div class="swiper-button-prev"></div>
@@ -103,11 +103,11 @@
                 </li>
                 <li>
                   <strong>Platform</strong>
-                  iOS &middot; watchOS
+                  iOS &middot; Android
                 </li>
                 <li>
                   <strong>Technologies</strong>
-                  Swift &middot; SwiftUI &middot; WatchOS
+                  Flutter &middot; Dart
                 </li>
                 <li>
                   <strong>Started</strong>
@@ -115,13 +115,11 @@
                 </li>
                 <li>
                   <strong>Status</strong>
-                  <span class="badge bg-success">Live</span>
+                  <span class="badge bg-warning text-dark">Coming Soon</span>
                 </li>
                 <li>
-                  <strong>App Store</strong>
-                  <a href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank">
-                    <i class="bi bi-apple me-1"></i>Download
-                  </a>
+                  <strong>Landing Page</strong>
+                  <a href="../colortrends/">colortrends/</a>
                 </li>
               </ul>
             </div>
@@ -135,7 +133,7 @@
     <div class="pd-about" data-aos="fade-up">
       <div class="container">
         <h2 class="pd-section-title">About the Project</h2>
-        <p>Lazy Score is an iPhone and Apple Watch app built for squash players who want to track game scores without interrupting play. One tap on the watch updates the score instantly — no need to touch the phone during a match. Built with Swift and SwiftUI, the app handles multiple game formats, stores match history locally, and works fully offline. It's live on the App Store and available for free.</p>
+        <p>Color Trends is a cross-platform palette generator for iOS and Android built with Flutter. It combines curated trend palettes organized by creative field, on-the-fly generation using color harmony schemes, and image-based extraction — all in one app. Palettes save locally with no account required. HEX and RGB output, dark and light themes, and full offline support. Coming soon on the App Store and Google Play.</p>
       </div>
     </div>
 
@@ -148,24 +146,24 @@
           <div class="col-md-4">
             <div class="pd-detail-card">
               <i class="bi bi-phone pd-card-icon"></i>
-              <h4>iOS Development</h4>
-              <p>Built natively with Swift and SwiftUI. Declarative UI with smooth animations, gesture recognition, and support for multiple screen sizes. No third-party dependencies.</p>
+              <h4>Flutter &amp; Dart</h4>
+              <p>Single codebase targeting iOS and Android. Declarative UI with custom animations, a staggered swatch reveal, and gesture-based fullscreen transitions.</p>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="pd-detail-card">
-              <i class="bi bi-smartwatch pd-card-icon"></i>
-              <h4>Apple Watch</h4>
-              <p>Companion WatchOS app for wrist-based scoring during play. Haptic feedback confirms each tap, and the interface is designed for glanceability — readable at a glance mid-game.</p>
+              <i class="bi bi-palette pd-card-icon"></i>
+              <h4>Color Science</h4>
+              <p>Palette generation uses HSL harmony schemes (analogous, triadic, split-complementary) seeded from curated trend hues. Image extraction uses the <code>palette_generator</code> package.</p>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="pd-detail-card">
-              <i class="bi bi-database pd-card-icon"></i>
-              <h4>Data &amp; Offline</h4>
-              <p>All game history stored locally with Core Data. No account required, no internet needed — data stays on device for full privacy and offline play.</p>
+              <i class="bi bi-device-hdd pd-card-icon"></i>
+              <h4>Local-First Data</h4>
+              <p>All settings and saved palettes stored locally via <code>SharedPreferences</code>. No backend, no account — data stays on device for full privacy and offline use.</p>
             </div>
           </div>
 
@@ -178,12 +176,12 @@
       <div class="container">
         <div class="pd-channels-inner">
           <div class="pd-channels-text">
-            <h3>Available on the App Store</h3>
-            <p>Free download for iPhone and Apple Watch</p>
+            <h3>Coming to App Store &amp; Google Play</h3>
+            <p>Free on iOS and Android — no account, no setup</p>
           </div>
           <div class="pd-channels-btns">
-            <a href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank" class="pd-btn pd-btn-primary">
-              <i class="bi bi-apple"></i> Download on App Store
+            <a href="../colortrends/" class="pd-btn pd-btn-primary">
+              <i class="bi bi-grid-3x3-gap"></i> Landing Page
             </a>
           </div>
         </div>
@@ -198,20 +196,20 @@
 
           <div class="col-lg-6 col-md-6">
             <div class="pd-gallery-card pd-gallery-card--contain">
-              <img src="../assets/img/portfolio/lazy-score/lazyscore-ios-settings.png" alt="iOS Settings screen">
+              <img src="../assets/img/portfolio/color-trends/colortrends-screen-profile.png" alt="Profile and Settings screen">
               <div class="pd-gallery-caption">
-                <h5>iOS Settings</h5>
-                <p>Game format selection and app preferences for a customised experience.</p>
+                <h5>Profile &amp; Settings</h5>
+                <p>Saved library, color count, HEX/RGB toggle, show codes, and theme selection in one screen.</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 col-md-6">
             <div class="pd-gallery-card pd-gallery-card--contain">
-              <img src="../assets/img/portfolio/lazy-score/lazyscore-watch-settings.png" alt="Apple Watch settings screen">
+              <img src="../assets/img/portfolio/color-trends/colortrends-screen-trends-codes.png" alt="Trends tab with color codes visible">
               <div class="pd-gallery-caption">
-                <h5>Watch Settings</h5>
-                <p>Wrist-optimised settings screen for quick in-game adjustments.</p>
+                <h5>Trends with Codes</h5>
+                <p>Toggle color codes on trend palette miniatures for quick reference without opening the fullscreen view.</p>
               </div>
             </div>
           </div>
@@ -223,11 +221,11 @@
     <!-- Project Navigation -->
     <div class="pd-project-nav">
       <div class="container">
-        <a href="carswithtomasz.php" class="pd-nav-link">
+        <a href="lazyscore.php" class="pd-nav-link">
           <i class="bi bi-arrow-left"></i>
           <div>
             <span class="pd-nav-link-label">Previous Project</span>
-            <span class="pd-nav-link-title">Cars with Tomasz</span>
+            <span class="pd-nav-link-title">Lazy Score</span>
           </div>
         </a>
         <div class="pd-nav-center">
@@ -235,10 +233,10 @@
             <i class="bi bi-grid-3x3-gap"></i> All Projects
           </a>
         </div>
-        <a href="colortrends.php" class="pd-nav-link pd-nav-next">
+        <a href="coffeemypassion.php" class="pd-nav-link pd-nav-next">
           <div style="text-align: right">
             <span class="pd-nav-link-label">Next Project</span>
-            <span class="pd-nav-link-title">Color Trends</span>
+            <span class="pd-nav-link-title">Coffee My Passion</span>
           </div>
           <i class="bi bi-arrow-right"></i>
         </a>
