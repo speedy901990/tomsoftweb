@@ -62,7 +62,7 @@ body {
   align-items: center;
   gap: 6px;
   padding: 7px 18px;
-  background: var(--ls-accent);
+  background: #e8943a;
   color: #fff;
   border-radius: 980px;
   font-size: 13px;
@@ -70,7 +70,7 @@ body {
   text-decoration: none;
   transition: background 0.2s;
 }
-.ld-nav-cta:hover { background: var(--ls-accent-dk); color: #fff; }
+.ld-nav-cta:hover { background: #d4832a; color: #fff; }
 
 /* ---- Hero ---- */
 .ld-hero {
@@ -474,6 +474,14 @@ body {
 @media (max-width: 768px) {
   .ld-mobile-bar { display: block; }
   body { padding-bottom: 82px; }
+
+  .ld-nav {
+    position: relative;
+  }
+
+  .ld-nav-cta {
+    display: none;
+  }
 
   .ld-split-row,
   .ld-split-row--reverse {
