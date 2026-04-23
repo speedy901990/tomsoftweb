@@ -1332,7 +1332,7 @@ section {
   gap: 7px;
   margin-top: 32px;
   padding: 13px 34px;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.18);
   border: 2px solid rgba(255, 255, 255, 0.55);
   border-radius: 50px;
   color: #fff;
