@@ -17,6 +17,7 @@
   <link rel="icon" href="../assets/img/favicon.png">
   <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="../assets/css/landing.css">
+  <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/bootstrap-icons.css">
 </head>
 <body>
 
@@ -24,15 +25,14 @@
 <nav class="ld-nav">
   <a class="ld-nav-brand" href="../index.php">TomSoft <span>/ Lazy Score</span></a>
   <a class="ld-nav-cta" href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank" rel="noopener">
-    <svg width="14" height="14" viewBox="0 0 814 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 405.8 0 302.6 0 204.7 0 96 60.2 31.2 160.6 31.2c55.3 0 102.4 38.2 137.9 38.2 34.4 0 87.1-41.1 151.6-41.1 24.8 0 109.2 2.6 168.4 80.4zm-198.3-109.5c31.2-38.9 53.6-93.3 53.6-147.7 0-7.7-.6-15.4-1.9-22.4-50.6 1.9-110.8 33.7-147.1 75.8-28.5 32.4-55.1 86.8-55.1 141.9 0 8.3 1.3 16.6 1.9 19.2 3.2.6 8.3 1.3 13.4 1.3 45.4 0 102.5-30.4 135.2-68.1z"/></svg>
-    Free Download
+    <i class="bi bi-apple"></i> Free Download
   </a>
 </nav>
 
 <!-- Hero -->
 <section class="ld-hero">
   <div class="ld-badge">
-    <svg width="13" height="13" viewBox="0 0 814 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 405.8 0 302.6 0 204.7 0 96 60.2 31.2 160.6 31.2c55.3 0 102.4 38.2 137.9 38.2 34.4 0 87.1-41.1 151.6-41.1 24.8 0 109.2 2.6 168.4 80.4zm-198.3-109.5c31.2-38.9 53.6-93.3 53.6-147.7 0-7.7-.6-15.4-1.9-22.4-50.6 1.9-110.8 33.7-147.1 75.8-28.5 32.4-55.1 86.8-55.1 141.9 0 8.3 1.3 16.6 1.9 19.2 3.2.6 8.3 1.3 13.4 1.3 45.4 0 102.5-30.4 135.2-68.1z"/></svg>
+    <i class="bi bi-apple"></i>
     Free on the App Store
   </div>
 
@@ -42,8 +42,7 @@
 
   <div class="ld-btn-group">
     <a class="ld-btn ld-btn-primary" href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank" rel="noopener">
-      <svg width="16" height="16" viewBox="0 0 814 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 405.8 0 302.6 0 204.7 0 96 60.2 31.2 160.6 31.2c55.3 0 102.4 38.2 137.9 38.2 34.4 0 87.1-41.1 151.6-41.1 24.8 0 109.2 2.6 168.4 80.4zm-198.3-109.5c31.2-38.9 53.6-93.3 53.6-147.7 0-7.7-.6-15.4-1.9-22.4-50.6 1.9-110.8 33.7-147.1 75.8-28.5 32.4-55.1 86.8-55.1 141.9 0 8.3 1.3 16.6 1.9 19.2 3.2.6 8.3 1.3 13.4 1.3 45.4 0 102.5-30.4 135.2-68.1z"/></svg>
-      Download on App Store
+      <i class="bi bi-apple"></i> Download on App Store
     </a>
     <a class="ld-btn ld-btn-secondary" href="../portfolio/lazyscore.php">
       View Portfolio Page
@@ -155,8 +154,7 @@
   <h2>Ready to play?</h2>
   <p>Free download for iPhone and Apple Watch. No account required.</p>
   <a class="ld-btn ld-btn-primary" href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank" rel="noopener">
-    <svg width="16" height="16" viewBox="0 0 814 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 405.8 0 302.6 0 204.7 0 96 60.2 31.2 160.6 31.2c55.3 0 102.4 38.2 137.9 38.2 34.4 0 87.1-41.1 151.6-41.1 24.8 0 109.2 2.6 168.4 80.4zm-198.3-109.5c31.2-38.9 53.6-93.3 53.6-147.7 0-7.7-.6-15.4-1.9-22.4-50.6 1.9-110.8 33.7-147.1 75.8-28.5 32.4-55.1 86.8-55.1 141.9 0 8.3 1.3 16.6 1.9 19.2 3.2.6 8.3 1.3 13.4 1.3 45.4 0 102.5-30.4 135.2-68.1z"/></svg>
-    Download on App Store
+    <i class="bi bi-apple"></i> Download on App Store
   </a>
 </section>
 
