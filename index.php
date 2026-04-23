@@ -153,12 +153,12 @@
       </div>
     </section--><!-- End Skills Section -->
 
-    <!-- ======= Resume Section ======= --> 
+    <!-- ======= Expertise Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
 
         <div class="section-title">
-          <h2>Resume</h2>
+          <h2>Expertise</h2>
         </div>
 
         <div class="row mb-5 py-4" data-aos="fade-up">
@@ -230,30 +230,45 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-photo filter-video">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/coffee-my-passion/coffeemypassion-miniature.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="portfolio/coffeemypassion.php" title="More Details"><i class="bx bx-link"></i></a>
+              <img src="assets/img/portfolio/coffee-my-passion/coffeemypassion-miniature.jpg" class="img-fluid" alt="Coffee My Passion">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="portfolio-category">Web &middot; Photo &middot; Video</span>
+                  <h4 class="portfolio-title">Coffee My Passion</h4>
+                  <p class="portfolio-desc">Personal coffee blog exploring alternative brewing methods, equipment reviews, and coffee culture.</p>
+                  <a href="portfolio/coffeemypassion.php" class="portfolio-btn">View Project <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-photo filter-video">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cars-with-tomasz/carswithtomasz-miniature.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="portfolio/carswithtomasz.php" title="More Details"><i class="bx bx-link"></i></a>
+              <img src="assets/img/portfolio/cars-with-tomasz/carswithtomasz-miniature.jpg" class="img-fluid" alt="Cars with Tomasz">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="portfolio-category">Photo &middot; Video</span>
+                  <h4 class="portfolio-title">Cars with Tomasz</h4>
+                  <p class="portfolio-desc">Automotive photography and videography — capturing car culture through a passionate lens.</p>
+                  <a href="portfolio/carswithtomasz.php" class="portfolio-btn">View Project <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-apps">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/lazy-score/lazyscore-miniature.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="portfolio/lazyscore.php" title="More Details"><i class="bx bx-link"></i></a>
+              <img src="assets/img/portfolio/lazy-score/lazyscore-miniature.jpg" class="img-fluid" alt="Lazy Score">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="portfolio-category">App &middot; iOS &middot; watchOS</span>
+                  <h4 class="portfolio-title">Lazy Score</h4>
+                  <p class="portfolio-desc">iPhone &amp; Apple Watch app for effortless squash game scoring. Built with Swift &amp; SwiftUI.</p>
+                  <a href="portfolio/lazyscore.php" class="portfolio-btn">View Project <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
           </div>
