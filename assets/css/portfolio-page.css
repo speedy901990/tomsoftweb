@@ -1,0 +1,517 @@
+/*--------------------------------------------------------------
+# Portfolio Detail Page — Shared Template
+# Each page sets in :root:
+#   --p-accent         main accent color
+#   --p-accent-light   light tint (panel bg, section bg)
+#   --p-accent-muted   very light / gradient endpoint
+--------------------------------------------------------------*/
+
+/* ── Breadcrumbs ────────────────────────────────────────── */
+.pd-breadcrumbs {
+  padding: 14px 0;
+  background: #f9fafb;
+  border-bottom: 1px solid #eaeef3;
+}
+
+.pd-breadcrumbs .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pd-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--p-accent);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: opacity 0.2s;
+}
+
+.pd-back-link:hover {
+  opacity: 0.7;
+  color: var(--p-accent);
+  text-decoration: none;
+}
+
+.pd-breadcrumb-trail {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #aaa;
+  align-items: center;
+}
+
+.pd-breadcrumb-trail li + li::before {
+  content: "/";
+  padding: 0 8px;
+  color: #ddd;
+}
+
+.pd-breadcrumb-trail a {
+  color: #888;
+  text-decoration: none;
+}
+
+.pd-breadcrumb-trail a:hover {
+  color: var(--p-accent);
+  text-decoration: none;
+}
+
+/* ── Project title ──────────────────────────────────────── */
+.pd-project-title {
+  padding: 40px 0 0;
+}
+
+.pd-project-title h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #0d1a24;
+  margin: 0 0 8px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  line-height: 1.2;
+}
+
+.pd-title-icon {
+  color: var(--p-accent);
+  font-size: 2rem;
+}
+
+.pd-title-bar {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--p-accent), var(--p-accent-muted));
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .pd-project-title h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* ── Slider row ─────────────────────────────────────────── */
+.pd-slider-wrap {
+  padding: 32px 0 0;
+}
+
+.pd-slider {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+.pd-slider .swiper-slide img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+/* App screenshot variant — portrait images, contain */
+.pd-slider.pd-slider--screenshots .swiper-slide {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+}
+
+.pd-slider.pd-slider--screenshots .swiper-slide img {
+  height: 400px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Swiper navigation arrows */
+.pd-slider .swiper-button-next,
+.pd-slider .swiper-button-prev {
+  color: var(--p-accent);
+  background: rgba(255, 255, 255, 0.92);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.pd-slider .swiper-button-next:hover,
+.pd-slider .swiper-button-prev:hover {
+  background: #fff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+}
+
+.pd-slider .swiper-button-next::after,
+.pd-slider .swiper-button-prev::after {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.pd-slider .swiper-pagination-bullet-active {
+  background: var(--p-accent);
+}
+
+/* ── Info sidebar ───────────────────────────────────────── */
+.pd-info {
+  background: var(--p-accent-light);
+  border-radius: 14px;
+  padding: 26px 22px;
+  border-left: 4px solid var(--p-accent);
+  height: 100%;
+}
+
+.pd-info-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--p-accent);
+  margin-bottom: 18px;
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+
+.pd-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pd-info ul li {
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.pd-info ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.pd-info ul li strong {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #999;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.pd-info ul li a {
+  color: var(--p-accent);
+  text-decoration: none;
+}
+
+.pd-info ul li a:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+/* ── Section title ──────────────────────────────────────── */
+.pd-section-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0d1a24;
+  margin: 0 0 24px;
+  padding-bottom: 14px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+.pd-section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: var(--p-accent);
+  border-radius: 2px;
+}
+
+/* ── About section ──────────────────────────────────────── */
+.pd-about {
+  padding: 48px 0 0;
+}
+
+.pd-about p {
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: #444;
+  max-width: 860px;
+  margin: 0;
+}
+
+/* ── How It's Made (3-col detail cards) ─────────────────── */
+.pd-details {
+  padding: 40px 0 0;
+}
+
+.pd-detail-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 26px 22px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  height: 100%;
+  border-top: 3px solid var(--p-accent);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pd-detail-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.11);
+}
+
+.pd-card-icon {
+  font-size: 28px;
+  color: var(--p-accent);
+  margin-bottom: 14px;
+  display: block;
+}
+
+.pd-detail-card h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0d1a24;
+  margin-bottom: 8px;
+  font-family: "Raleway", sans-serif;
+}
+
+.pd-detail-card p {
+  font-size: 13.5px;
+  color: #666;
+  margin: 0;
+  line-height: 1.65;
+}
+
+/* ── Channels / CTA ─────────────────────────────────────── */
+.pd-channels {
+  padding: 40px 0 0;
+}
+
+.pd-channels-inner {
+  background: var(--p-accent-light);
+  border-radius: 14px;
+  padding: 30px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.pd-channels-text h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0d1a24;
+  margin: 0 0 5px;
+  font-family: "Raleway", sans-serif;
+}
+
+.pd-channels-text p {
+  font-size: 13.5px;
+  color: #666;
+  margin: 0;
+}
+
+.pd-channels-btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pd-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 22px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.22s ease;
+  border: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.pd-btn-primary {
+  background: var(--p-accent);
+  color: #fff;
+  border-color: var(--p-accent);
+}
+
+.pd-btn-primary:hover {
+  opacity: 0.85;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.pd-btn-outline {
+  background: transparent;
+  color: var(--p-accent);
+  border-color: var(--p-accent);
+}
+
+.pd-btn-outline:hover {
+  background: var(--p-accent);
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* ── Gallery ────────────────────────────────────────────── */
+.pd-gallery {
+  padding: 40px 0 0;
+}
+
+.pd-gallery-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  background: #fff;
+}
+
+.pd-gallery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.13);
+}
+
+.pd-gallery-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+}
+
+.pd-gallery-card--contain img {
+  object-fit: contain;
+  background: #f4f4f4;
+  height: 260px;
+}
+
+.pd-gallery-caption {
+  padding: 14px 16px;
+}
+
+.pd-gallery-caption h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0d1a24;
+  margin: 0 0 3px;
+  font-family: "Raleway", sans-serif;
+}
+
+.pd-gallery-caption p {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ── Project navigation ─────────────────────────────────── */
+.pd-project-nav {
+  padding: 48px 0 60px;
+  border-top: 1px solid #eaeef3;
+  margin-top: 48px;
+}
+
+.pd-project-nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pd-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.pd-nav-link:hover {
+  text-decoration: none;
+  transform: translateX(-4px);
+}
+
+.pd-nav-link.pd-nav-next:hover {
+  transform: translateX(4px);
+}
+
+.pd-nav-link-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #aaa;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.pd-nav-link-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0d1a24;
+  display: block;
+  font-family: "Raleway", sans-serif;
+}
+
+.pd-nav-link i {
+  font-size: 24px;
+  color: var(--p-accent);
+  flex-shrink: 0;
+}
+
+.pd-nav-center a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #888;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: color 0.2s;
+}
+
+.pd-nav-center a:hover {
+  color: var(--p-accent);
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .pd-project-nav .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .pd-nav-link.pd-nav-next {
+    align-self: flex-end;
+  }
+}

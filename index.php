@@ -6,15 +6,15 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>TomSoft</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Tomasz Nowak — software developer, photographer, and filmmaker based in Krakow, Poland. iOS apps, C++ systems development, photography, and videography." name="description">
+  <meta content="software developer, iOS, Swift, C++, photographer, filmmaker, Krakow, portfolio, freelance" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -40,6 +40,7 @@
     <div class="hero-container" data-aos="fade-in">
       <h1>Hi. I'm Tomasz.</h1>
       <p>I'm a <span class="typed" data-typed-items="Software Developer, Coffee Enthusiast, Photographer, Filmmaker"></span></p>
+      <a href="#portfolio" class="hero-cta scrollto">View My Work <i class="bi bi-arrow-down-short"></i></a>
     </div>
   </section><!-- End Hero -->
 
@@ -88,77 +89,75 @@
     </section><!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
-    
-    <!--section id="skills" class="skills section-bg">
+    <section id="skills" class="skills section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Skills</h2>    
+          <h2>Skills</h2>
+          <p>Technical depth across software development and creative disciplines.</p>
         </div>
 
-        <div class="row skills-content">
+        <div class="row g-4" data-aos="fade-up">
 
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">C++<i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon-wrap"><i class="bi bi-code-slash"></i></div>
+              <div class="skill-name">C++ &amp; Systems</div>
+              <div class="skill-tags">Multithreading &middot; CUDA &middot; GPU Computing</div>
             </div>
-
-            <div class="progress">
-              <span class="skill">Multithreading<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CUDA<i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">Flutter<i class="val">30%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon-wrap"><i class="bi bi-phone"></i></div>
+              <div class="skill-name">Swift &amp; SwiftUI</div>
+              <div class="skill-tags">iOS &middot; watchOS &middot; App Store</div>
             </div>
+          </div>
 
-            <div class="progress">
-              <span class="skill">Photography <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon-wrap"><i class="bi bi-globe"></i></div>
+              <div class="skill-name">Web Development</div>
+              <div class="skill-tags">PHP &middot; HTML &middot; CSS &middot; JavaScript</div>
             </div>
+          </div>
 
-            <div class="progress">
-              <span class="skill">Filmmaking<i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon-wrap"><i class="bi bi-layers"></i></div>
+              <div class="skill-name">Flutter</div>
+              <div class="skill-tags">Cross-platform &middot; Dart</div>
             </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon-wrap"><i class="bi bi-camera"></i></div>
+              <div class="skill-name">Photography</div>
+              <div class="skill-tags">Digital &middot; Film &middot; Nature &middot; Street</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon-wrap"><i class="bi bi-film"></i></div>
+              <div class="skill-name">Filmmaking</div>
+              <div class="skill-tags">Video &middot; Editing &middot; Storytelling</div>
+            </div>
           </div>
 
         </div>
 
       </div>
-    </section--><!-- End Skills Section -->
+    </section><!-- End Skills Section -->
 
-    <!-- ======= Resume Section ======= --> 
+    <!-- ======= Expertise Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
 
         <div class="section-title">
-          <h2>Resume</h2>
+          <h2>Expertise</h2>
         </div>
 
         <div class="row mb-5 py-4" data-aos="fade-up">
@@ -230,30 +229,45 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-photo filter-video">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/coffee-my-passion/coffeemypassion-miniature.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="portfolio/coffeemypassion.php" title="More Details"><i class="bx bx-link"></i></a>
+              <img src="assets/img/portfolio/coffee-my-passion/coffeemypassion-miniature.jpg" class="img-fluid" alt="Coffee My Passion">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="portfolio-category">Web &middot; Photo &middot; Video</span>
+                  <h4 class="portfolio-title">Coffee My Passion</h4>
+                  <p class="portfolio-desc">Personal coffee blog exploring alternative brewing methods, equipment reviews, and coffee culture.</p>
+                  <a href="portfolio/coffeemypassion.php" class="portfolio-btn">View Project <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-photo filter-video">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cars-with-tomasz/carswithtomasz-miniature.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="portfolio/carswithtomasz.php" title="More Details"><i class="bx bx-link"></i></a>
+              <img src="assets/img/portfolio/cars-with-tomasz/carswithtomasz-miniature.jpg" class="img-fluid" alt="Cars with Tomasz">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="portfolio-category">Photo &middot; Video</span>
+                  <h4 class="portfolio-title">Cars with Tomasz</h4>
+                  <p class="portfolio-desc">Automotive photography and videography — capturing car culture through a passionate lens.</p>
+                  <a href="portfolio/carswithtomasz.php" class="portfolio-btn">View Project <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-apps">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/lazy-score/lazyscore-miniature.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="portfolio/lazyscore.php" title="More Details"><i class="bx bx-link"></i></a>
+              <img src="assets/img/portfolio/lazy-score/lazyscore-miniature.jpg" class="img-fluid" alt="Lazy Score">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="portfolio-category">App &middot; iOS &middot; watchOS</span>
+                  <h4 class="portfolio-title">Lazy Score</h4>
+                  <p class="portfolio-desc">iPhone &amp; Apple Watch app for effortless squash game scoring. Built with Swift &amp; SwiftUI.</p>
+                  <a href="portfolio/lazyscore.php" class="portfolio-btn">View Project <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
           </div>
@@ -295,7 +309,7 @@
                 <p>+48 602 133 553</p>
               </div>
 
-              <iframe style="border:0; width: 100%; height: 290px;" src="https://www.openstreetmap.org/export/embed.html?bbox=19.831008911132816%2C49.981916255087015%2C20.045242309570312%2C50.13125319519268&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=13/50.05664/19.93813&amp;layers=N">View Larger Map</a></small>
+              <iframe style="border:0; width: 100%; height: 290px;" src="https://www.openstreetmap.org/export/embed.html?bbox=19.831008911132816%2C49.981916255087015%2C20.045242309570312%2C50.13125319519268&amp;layer=mapnik"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=13/50.05664/19.93813&amp;layers=N">View Larger Map</a></small>
             </div>
 
           </div>
