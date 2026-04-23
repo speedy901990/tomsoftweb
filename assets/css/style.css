@@ -1273,3 +1273,86 @@ section {
 #portfolio.section-bg {
   background: #eef2f8;
 }
+
+/*--------------------------------------------------------------
+# Skills — Badge Grid
+--------------------------------------------------------------*/
+.skills .skill-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px 20px 22px;
+  text-align: center;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.skills .skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+.skills .skill-icon-wrap {
+  width: 58px;
+  height: 58px;
+  background: #eef5fc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #149ddd;
+  margin-bottom: 4px;
+}
+
+.skills .skill-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #173b6c;
+  font-family: "Raleway", sans-serif;
+}
+
+.skills .skill-tags {
+  font-size: 12px;
+  color: #888;
+  letter-spacing: 0.2px;
+  line-height: 1.6;
+}
+
+/*--------------------------------------------------------------
+# Hero CTA button
+--------------------------------------------------------------*/
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 32px;
+  padding: 13px 34px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.55);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-cta i {
+  font-size: 18px;
+}
+
+.hero-cta:hover {
+  background: #149ddd;
+  border-color: #149ddd;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
