@@ -36,7 +36,7 @@
     $mail = new PHPMailer\PHPMailer\PHPMailer(true);
 
     // Read credentials from file
-    $lines = file("credentials.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    $lines = file('/volume1/web_packages/credentials.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     if (count($lines) == 2) {
         $username = $lines[0];
         $password = $lines[1];
@@ -55,7 +55,7 @@
     $mail->Port = 587;
 
     // Recipients
-    $mail->setFrom($email, $name);
+    $mail->setFrom($username, 'Portfolio Contact');
     $mail->addAddress('mychaty@gmail.com');
     $mail->addReplyTo($email, $name);
 
