@@ -118,8 +118,10 @@
                   <span class="badge bg-warning text-dark">Coming Soon</span>
                 </li>
                 <li>
-                  <strong>Landing Page</strong>
-                  <a href="../colortrends/">colortrends/</a>
+                  <strong>Website</strong>
+                  <a href="https://tomsoft.dev/colortrends" target="_blank">
+                    <i class="bi bi-globe me-1"></i>Color Trends
+                  </a>
                 </li>
               </ul>
             </div>

@@ -95,9 +95,9 @@
 
 <!-- ======= Nav ======= -->
 <nav class="ld-nav">
-  <a class="ld-nav-brand" href="../index.php">
+  <a class="ld-nav-brand" href="https://tomsoft.dev/colortrends">
     <img src="../assets/img/portfolio/color-trends/colortrends-icon.jpg" alt="Color Trends" class="ld-nav-appicon">
-    Color Trends <span>by TomSoft</span>
+    Color Trends
   </a>
   <span class="ld-nav-coming">
     <i class="bi bi-clock"></i> Coming Soon

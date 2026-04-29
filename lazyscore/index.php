@@ -22,9 +22,9 @@
 
 <!-- ======= Nav ======= -->
 <nav class="ld-nav">
-  <a class="ld-nav-brand" href="../index.php">
+  <a class="ld-nav-brand" href="https://tomsoft.dev/lazyscore">
     <img src="../assets/img/portfolio/lazy-score/lazyscore-logo.png" alt="Lazy Score" class="ld-nav-appicon">
-    Lazy Score <span>by TomSoft</span>
+    Lazy Score
   </a>
   <a class="ld-nav-cta" href="https://apps.apple.com/pl/app/lazy-score/id6752389671" target="_blank" rel="noopener">
     <i class="bi bi-apple"></i> Free Download

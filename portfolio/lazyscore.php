@@ -123,6 +123,12 @@
                     <i class="bi bi-apple me-1"></i>Download
                   </a>
                 </li>
+                <li>
+                  <strong>Website</strong>
+                  <a href="https://tomsoft.dev/lazyscore" target="_blank">
+                    <i class="bi bi-globe me-1"></i>Lazy Score
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
